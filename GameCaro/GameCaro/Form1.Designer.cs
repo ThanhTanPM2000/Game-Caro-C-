@@ -32,10 +32,10 @@
             this.pnl1 = new System.Windows.Forms.Panel();
             this.pnl2 = new System.Windows.Forms.Panel();
             this.pnl3 = new System.Windows.Forms.Panel();
-            this.txbUserName = new System.Windows.Forms.TextBox();
-            this.pcbTimeToEnd = new System.Windows.Forms.ProgressBar();
-            this.txbLan = new System.Windows.Forms.TextBox();
             this.btnLan = new System.Windows.Forms.Button();
+            this.txbLan = new System.Windows.Forms.TextBox();
+            this.pcbTimeToEnd = new System.Windows.Forms.ProgressBar();
+            this.txbUserName = new System.Windows.Forms.TextBox();
             this.ptbAvatar = new System.Windows.Forms.PictureBox();
             this.ptbCaro = new System.Windows.Forms.PictureBox();
             this.pnl2.SuspendLayout();
@@ -74,27 +74,6 @@
             this.pnl3.Size = new System.Drawing.Size(271, 166);
             this.pnl3.TabIndex = 2;
             // 
-            // txbUserName
-            // 
-            this.txbUserName.Location = new System.Drawing.Point(4, 13);
-            this.txbUserName.Name = "txbUserName";
-            this.txbUserName.Size = new System.Drawing.Size(133, 20);
-            this.txbUserName.TabIndex = 0;
-            // 
-            // pcbTimeToEnd
-            // 
-            this.pcbTimeToEnd.Location = new System.Drawing.Point(3, 39);
-            this.pcbTimeToEnd.Name = "pcbTimeToEnd";
-            this.pcbTimeToEnd.Size = new System.Drawing.Size(133, 23);
-            this.pcbTimeToEnd.TabIndex = 2;
-            // 
-            // txbLan
-            // 
-            this.txbLan.Location = new System.Drawing.Point(4, 69);
-            this.txbLan.Name = "txbLan";
-            this.txbLan.Size = new System.Drawing.Size(132, 20);
-            this.txbLan.TabIndex = 3;
-            // 
             // btnLan
             // 
             this.btnLan.Location = new System.Drawing.Point(36, 95);
@@ -104,13 +83,34 @@
             this.btnLan.Text = "Lan";
             this.btnLan.UseVisualStyleBackColor = true;
             // 
+            // txbLan
+            // 
+            this.txbLan.Location = new System.Drawing.Point(4, 69);
+            this.txbLan.Name = "txbLan";
+            this.txbLan.Size = new System.Drawing.Size(132, 20);
+            this.txbLan.TabIndex = 3;
+            // 
+            // pcbTimeToEnd
+            // 
+            this.pcbTimeToEnd.Location = new System.Drawing.Point(3, 39);
+            this.pcbTimeToEnd.Name = "pcbTimeToEnd";
+            this.pcbTimeToEnd.Size = new System.Drawing.Size(133, 23);
+            this.pcbTimeToEnd.TabIndex = 2;
+            // 
+            // txbUserName
+            // 
+            this.txbUserName.Location = new System.Drawing.Point(4, 13);
+            this.txbUserName.Name = "txbUserName";
+            this.txbUserName.Size = new System.Drawing.Size(133, 20);
+            this.txbUserName.TabIndex = 0;
+            // 
             // ptbAvatar
             // 
-            this.ptbAvatar.BackgroundImage = global::GameCaro.Properties.Resources.chỉ_mục;
             this.ptbAvatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ptbAvatar.Location = new System.Drawing.Point(153, 13);
             this.ptbAvatar.Name = "ptbAvatar";
             this.ptbAvatar.Size = new System.Drawing.Size(115, 114);
+            this.ptbAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptbAvatar.TabIndex = 1;
             this.ptbAvatar.TabStop = false;
             // 
